@@ -1,0 +1,63 @@
+HW_1. The first part
+Linux terminal (GitBash) commands
+
+1) Посмотреть где я - pwd
+2) Создать папку - mkdir foldername
+3) Зайти в папку - cd foldername
+4) Создать 3 папки - mkdir foldername1 foldername2 foldername3
+5) Зайти в любую папку - cd /d/foldername/foldername or via Windows conductor (open GitBash by the right mouse button)
+6) Создать 5 файлов (3 txt, 2 json) - 
+   touch txtfiles{0001..0003}.txt jsonfiles{0001..0002}.json 
+ or touch test1.txt test2.txt test3.txt test4.json test5.json
+7) Создать 3 папки - mkdir foldername1 foldername2 foldername3
+8) Вывести список содержимого папки - ls -la
+9) + Открыть любой txt файл - cat > test2.txt
+10) + написать туда что-нибудь, любой текст - cat > test2.txt + Enter
+11)  + сохранить и выйти - Ctrl+C
+12) Выйти из папки на уровень выше - cd ..//
+13) переместить любые 2 файла, которые вы создали, в любую другую папку - mv txtfiles{0001..0002}.txt Test6
+14) скопировать любые 2 файла, которые вы создали, в любую другую папку - cp jsonfiles{0001..0002}.json Test7
+15) Найти файл по имени - find . -name "jsonfiles0001.json"
+16) просмотреть содержимое в реальном времени (команда grep) изучите как она работает.
+    grep -i "gjr" txtfiles0003.txt
+17) вывести несколько первых строк из текстового файла -
+   grep -m10 "" txtfiles0003.txt
+18) вывести несколько последних строк из текстового файла
+	tail -n10 txtfiles0003.txt
+19) просмотреть содержимое длинного файла (команда less) изучите как она работает - 
+ less filename.txt, просмотр, например, c 3 строки - less +3 filename
+20) вывести дату и время - date
+=========
+
+Задание *
+1) Отправить http запрос на сервер.
+http://162.55.220.72:5005/terminal-hw-request
+   bash: syntax error near unexpected token `my_String'
+
+2) Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13
+  Запуск в терминале файла script.sh
+  ./script.sh
+-----------
+#!/bin/bash  
+echo Привет! Это скрипт-домашка!
+echo 3: Заходим в папку
+cd /c/Terminal/Test1/Test8
+ls
+echo 4: Создаем папки внутри
+mkdir Folder1 Folder2 Folder3
+echo 5: Заходим в одну из папок
+cd /c/Terminal/Test1/Test8/Folder1
+echo 6: Создаем 5 файлов внутри
+touch txtfiles{0001..0003}.txt jsonfiles{0001..0002}.json 
+echo 7: Создаем еще три папки
+mkdir Folder4 Folder5 Folder6
+echo 8: Выводим содержимое папки
+ls -la
+echo 13: Передвигаем файлы в другую папку
+mv txtfiles{0001..0002}.txt Folder4
+echo Сделано
+exit
+=====================
+
+
+
