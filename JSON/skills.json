@@ -1,0 +1,4 @@
+ let skills = {
+  hard_skills: ['terminal', 'postman', 'js', 'json', 'git', 'chai'],
+  soft_skills: ['english', 'communication', 'google', 'sense of humour']
+};
