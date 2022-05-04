@@ -1,1 +1,13 @@
-
+let bug report = {    
+  "Title": " ",
+  "Bug ID":  ,
+   "Path": " ",
+	"Severity":  ,
+   "Priority": ,
+  "Assigned to": " ",
+  "Reported By": " ",
+  "Reported On": ,
+  "Status": " ",
+  "Environment": " ",
+  "Description": " ",
+    }       
