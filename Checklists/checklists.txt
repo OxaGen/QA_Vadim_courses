@@ -1,0 +1,87 @@
+Title Here (Tag Here)_________________________________________________________________
+
+1. Purpose
+The purpose of this checklist family is to exercise the <name here> functional area of the [product name here] product.  It is the intention of this checklist family that by exercising this (or these) area(s) of the product we will evidence (verification and validation)
+1.1 That everything that should be happening and present, is in fact, happening, happening correctly, present and correctly present, and
+1.2 That nothing that should not be present or inaccurate, is present or inaccurate.
+
+2. Scope
+This checklist does test <this>, <this> and <this>.  This checklist does not test <this>, <this> and <this>.
+
+3. Assumptions
+The following assumptions were identified and utilized in the construction of this checklist
+3.1 Assumption One
+3.2 Assumption Two
+3.3 Assumption Three
+3.4 Assumption Four
+
+4. Variant Uses
+This checklist can be executed as is for the following functional areas
+4.1 Functional Area 1
+4.2 Functional Area 2
+4.3 Functional Area 3
+4.4 Functional Area 4
+
+5. Definition of Priority Levels
+For the purposes of prioritizing test execution efforts, this checklist is decomposed into the following levels and associated definitions
+Level 1 Section Definitions
+Level 2 Section Definitions
+Level 3 Section Definitions
+
+6. Checklist Coverage Definition
+For the purposes of defining and understand what checklist coverage is addressed based upon Level oriented prioritization
+Levels
+If One Level
+If Two Levels
+If Three Levels
+
+7. Criteria for Pass/Fail Statuses
+For the purposes of understanding when a checklist is a candidate for a “Pass” or “Fail” status, the following criteria are defined
+7.1 For Individual Level executions
+7.2 For Combination Level executions
+
+8. Checklist Body
+Item
+Status
+Comment
+Section 
+
+9. Test Execution Status By Cycle
+Who
+When
+Build #
+Level(s) 
+Status (%, Pass/Fail)
+# Defects Logged
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
