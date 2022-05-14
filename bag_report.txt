@@ -1,0 +1,12 @@
+BUG REPORT
+  Title: Company name has a typo on the main page 
+  Type: Bug 
+  Priority: High 
+  Severity: Low 
+  Labels: GUI
+  Environment: Chrome.Версия 100.0.4896.127 (Official Build),64-бit, screen resolution 1920x1080
+  Description: Company name has a typo on the main page -"Ctossfit"
+  Steps_to_reproduce: 1. Open main page 2. Check the header words 
+  Result:
+    expected_result: Header`s name is "Crossfit"
+    actual_result: Header`s name is "Ctossfit" 
