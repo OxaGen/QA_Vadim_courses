@@ -1,0 +1,4 @@
+ITCareerToday web form testing
+Specification, checklists and bug_report could be found in the link:
+
+https://docs.google.com/spreadsheets/d/1FLyMT5Fy5pCyi2ED_Go4KIDLpNMlm2EWHBJsJTLyJS8/edit#gid=0
